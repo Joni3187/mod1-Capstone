@@ -1,0 +1,108 @@
+/* 
+Styles needs to include: 
+Font, Color, Navigation, Image, Styled links and
+Use of grid layout, which will be assessed at the link to CSS file
+*/
+
+.bodyContent {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  
+}
+
+.head2 {
+    color: black;
+    font: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+.biopic {
+    font-size: 20px;
+    font: bolder;
+    color: black;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  }
+
+  .contact-info {
+      text-align: center;
+  }
+
+  .linkedIn:link, .linkedIn:visited {
+    background-color:#596164;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .linkedIn:hover, .linkedIn:active {
+    background-color: #868f96;
+  }
+
+
+/* 
+                                Landing Page.html ABOVE       
+
+Notes are cool!!! Good Luck!!!
+
+                                Projects Page.html BELOW    
+*/
+
+.bodyContent2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+   }
+
+.welcome {
+    color: black;
+    font: bold;
+    text-align: center;
+    font-size: 2em;
+}
+
+.text-test {
+    font-size: 40px;
+    text-align: center;
+}
+
+.pro-pg-p2 {
+    font-size: 20px;
+    font: bolder;
+    color: black;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+
+.bodyContent2 {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%); 
+}
+
+.cards {
+    background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+
+.card {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;    
+}
+
+.card-title {
+    text-align: center;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
